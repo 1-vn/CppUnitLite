@@ -13,7 +13,10 @@
       ],
       'include_dirs': [
          './CppUnitLite'
-      ]
+      ],
+      "xcode_settings": {
+        "ARCHS": ["x86_64"]
+      },
     },
     {
       'target_name': 'test',
@@ -27,7 +30,10 @@
       ],
       'include_dirs': [
          '.'
-      ]
+      ],
+      "xcode_settings": {
+        "ARCHS": ["x86_64"]
+      },
     },
   ]
 }
